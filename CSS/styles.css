@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(45deg, rgb(66, 159, 230), rgb(255, 255, 255));
+    height: 100vh
+}
+
+.header {
+    text-align: center;
+}
+
+.zhengwen {
+    padding: 20px;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+
+}
+
+.zhengwen>* {
+    padding: 20px;
+}
+
+.alink {
+    display: inline-block;
+    margin: 5px;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 104, 230);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.227);
+}
+
+.alink:hover {
+    background-color: rgb(230, 66, 85);
+    transition: background-color 0.5s ease;
+}
